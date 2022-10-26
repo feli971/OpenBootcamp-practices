@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.section-1{
+    display:flex;
+    flex-direction:column;
+    background-color:rosybrown;
+    width:5rem;
+    padding:5px;
+    margin-top:25px;
+    align-items: flex-end;
+    
+    
+   
+
+    
+}
+.section-2{
+    padding:2px;
+    display:flex;
+    flex-direction:column;
+    margin-left:7rem;
+    background-color:yellowgreen;
+    height:55px;
+    width:5rem;
+    justify-content:flex-start;
+    
+}
+
+@media(min-width: 640px){
+    .section-1{
+        display:flex;
+        flex-direction:row;
+        width:5rem;
+        padding:5px;   
+
+
+    }
+
+}
