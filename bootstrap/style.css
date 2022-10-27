@@ -1,0 +1,15 @@
+.row{
+    width:100%;
+}
+.col-lg{
+    background-color: red;
+}
+.col-md{
+    background-color: yellow;
+}
+.col-sm{
+    background-color: brown;
+}
+.col-xl{
+    background-color: violet;
+}
